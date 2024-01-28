@@ -36,6 +36,7 @@ img{
   max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
+  margin: 0 auto;
 
 }
 
@@ -459,7 +460,11 @@ width: 40px;
     padding: 96px 0;
   }
 
-  .ul-feature-content {}
+  .ul-feature-content {
+    flex-direction: row;
+      gap: 72px 24px;
+      flex-wrap: wrap;
+  }
 
   .li-feature-content {
     width: calc((100% - 24px) / 2);
